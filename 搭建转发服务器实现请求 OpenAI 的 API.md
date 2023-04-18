@@ -11,7 +11,7 @@
 server
     {
         listen 80;
-        server_name www.host.com
+        server_name www.host.com; # 如果没有域名，则填写公网地址，如 123.45.67.89 
         index index.html index.htm index.php;
         root /www/server/nginx/html;
         charset 'utf-8';
